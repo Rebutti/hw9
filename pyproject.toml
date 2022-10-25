@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hw-9"
+version = "0.1.0"
+description = "Database, which saves emails, phones numbers, names"
+authors = ["Rebutti <misha.ovsov@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hw_9"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+faker = "^15.1.1"
+sqlalchemy = "^1.4.42"
+psycopg2 = "^2.9.4"
+alembic = "^1.8.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
